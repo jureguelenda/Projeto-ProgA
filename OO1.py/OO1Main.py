@@ -1,10 +1,6 @@
 from tkinter import *
 from tkinter import ttk
 
-# Importações dos módulos desenvolvidos pelos parceiros de grupo
-from figuras_base import Linha, Rabisco
-from figuras_geometria import Retangulo, Oval, Circulo, PoligonoRegular
-
 # Dicionário para traduzir o nome em português para a cor que o Tkinter entende
 CORES_MAP = {
     "Preto": "#000000",
